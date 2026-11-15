@@ -1,0 +1,33 @@
+# --- Python / Django (backend) ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.sqlite3
+backend/media/
+backend/staticfiles/
+.env
+.venv/
+venv/
+env/
+
+# --- Node / Vite / React (frontend) ---
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# --- Editor / OS ---
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
